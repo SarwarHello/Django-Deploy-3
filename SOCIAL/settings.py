@@ -69,12 +69,12 @@ WSGI_APPLICATION = 'SOCIAL.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'INSTADB9',
-        'USER': 'root',
-        'PASSWORD': '123abc',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'INSTA9',
+        'USER': 'postgres',
+        'PASSWORD': 'frc123',
         'HOST': 'localhost',   # or your DB host
-        'PORT': '3306',        # default MySQL port
+        'PORT': '5432',        # default MySQL port
     }
 }
 
